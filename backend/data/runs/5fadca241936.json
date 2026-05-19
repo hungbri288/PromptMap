@@ -1,0 +1,181 @@
+{
+  "id": "5fadca241936",
+  "status": "completed",
+  "created_at": "2026-05-19T08:44:50.038467Z",
+  "completed_at": "2026-05-19T08:44:54.961961Z",
+  "request": {
+    "base_prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 5,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "live"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v004",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "Rolling out a new AI chatbot feature to production users requires a meticulous, multi-stage approach to ensure",
+      "latency_ms": 4107,
+      "error": null
+    },
+    {
+      "variant_id": "v001",
+      "output": "Rolling out a new AI chatbot feature to production users requires a methodical, cautious, and iterative approach. Unlike",
+      "latency_ms": 3992,
+      "error": null
+    },
+    {
+      "variant_id": "v002",
+      "output": "Rolling out a new AI chatbot feature to production users requires a methodical, multi-faceted approach,",
+      "latency_ms": 3724,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "Rolling out a new AI chatbot feature to production users requires a methodical, multi-stage approach that prioritizes",
+      "latency_ms": 4309,
+      "error": null
+    },
+    {
+      "variant_id": "v004",
+      "output": "Rolling out a new AI chatbot feature is a high-stakes endeavor, especially given the potential",
+      "latency_ms": 4299,
+      "error": null
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": -0.21914513409137726,
+      "y": 0.33233383297920227,
+      "cluster": 0,
+      "semantic_distance": 0.0,
+      "output_length": 110,
+      "token_count": 17,
+      "entropy": 3.85216872360328
+    },
+    {
+      "variant_id": "v001",
+      "x": -0.17643821239471436,
+      "y": -0.3771907091140747,
+      "cluster": 0,
+      "semantic_distance": 0.2663259506225586,
+      "output_length": 120,
+      "token_count": 18,
+      "entropy": 4.058813890331201
+    },
+    {
+      "variant_id": "v002",
+      "x": -0.12335682660341263,
+      "y": -0.1077171042561531,
+      "cluster": 0,
+      "semantic_distance": 0.1989980936050415,
+      "output_length": 103,
+      "token_count": 15,
+      "entropy": 3.773557262275186
+    },
+    {
+      "variant_id": "v003",
+      "x": -0.1304357796907425,
+      "y": 0.1360417753458023,
+      "cluster": 0,
+      "semantic_distance": 0.1489354372024536,
+      "output_length": 117,
+      "token_count": 17,
+      "entropy": 3.9698157824268097
+    },
+    {
+      "variant_id": "v004",
+      "x": 0.6493759751319885,
+      "y": 0.01653215102851391,
+      "cluster": 0,
+      "semantic_distance": 0.44358503818511963,
+      "output_length": 94,
+      "token_count": 15,
+      "entropy": 3.773557262275186
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 0,
+    "projection_method": "pca",
+    "clustering_method": "single-cluster",
+    "api_success_count": 5,
+    "api_error_count": 0,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "negation",
+        "count": 1,
+        "avg_distance": 0.44358503818511963,
+        "max_distance": 0.44358503818511963
+      },
+      {
+        "category": "persona",
+        "count": 1,
+        "avg_distance": 0.1489354372024536,
+        "max_distance": 0.1489354372024536
+      },
+      {
+        "category": "politeness",
+        "count": 1,
+        "avg_distance": 0.1989980936050415,
+        "max_distance": 0.1989980936050415
+      },
+      {
+        "category": "specificity",
+        "count": 1,
+        "avg_distance": 0.2663259506225586,
+        "max_distance": 0.2663259506225586
+      }
+    ]
+  },
+  "error": null
+}

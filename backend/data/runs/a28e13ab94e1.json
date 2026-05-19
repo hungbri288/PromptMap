@@ -1,0 +1,1556 @@
+{
+  "id": "a28e13ab94e1",
+  "status": "completed",
+  "created_at": "2026-05-19T08:41:14.064495Z",
+  "completed_at": "2026-05-19T08:41:51.593390Z",
+  "request": {
+    "base_prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 64,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "live"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v004",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v005",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not over-explain.",
+      "category": "negation",
+      "transform": "Negative brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v006",
+      "prompt": "The task is to explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "syntactic",
+      "transform": "Declarative framing",
+      "system_prompt": null
+    },
+    {
+      "id": "v007",
+      "prompt": "Please answer this request: Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "syntactic",
+      "transform": "Question to instruction",
+      "system_prompt": null
+    },
+    {
+      "id": "v008",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a patient teacher.",
+      "system_prompt": "You are a patient teacher."
+    },
+    {
+      "id": "v009",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a skeptical reviewer.",
+      "system_prompt": "You are a skeptical reviewer."
+    },
+    {
+      "id": "v010",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Be direct.",
+      "category": "politeness",
+      "transform": "Direct style",
+      "system_prompt": null
+    },
+    {
+      "id": "v011",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a cautious senior engineer.",
+      "system_prompt": "You are a cautious senior engineer."
+    },
+    {
+      "id": "v012",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not use bullet points.",
+      "category": "negation",
+      "transform": "Format prohibition",
+      "system_prompt": null
+    },
+    {
+      "id": "v013",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nAvoid unnecessary detail.",
+      "category": "specificity",
+      "transform": "Add brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v014",
+      "prompt": "First identify the task, then answer.\n\nExplain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Meta instruction before prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v015",
+      "prompt": "I would appreciate it if you could explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "politeness",
+      "transform": "Formal request",
+      "system_prompt": null
+    },
+    {
+      "id": "v016",
+      "prompt": "Context: prioritize accuracy.\n\nUser request: Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Context before user request",
+      "system_prompt": null
+    },
+    {
+      "id": "v017",
+      "prompt": "clarify how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'clarify'",
+      "system_prompt": null
+    },
+    {
+      "id": "v018",
+      "prompt": "Please explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "politeness",
+      "transform": "Polite prefix",
+      "system_prompt": null
+    },
+    {
+      "id": "v019",
+      "prompt": "summarize how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'summarize'",
+      "system_prompt": null
+    },
+    {
+      "id": "v020",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude exactly three key points.",
+      "category": "specificity",
+      "transform": "Add count constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v021",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\n\nSystem-style note: prioritize accuracy.",
+      "category": "position",
+      "transform": "System note in user turn",
+      "system_prompt": null
+    },
+    {
+      "id": "v022",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Use plain language.",
+      "category": "lexical",
+      "transform": "Add plain language cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v023",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Instruction in system prompt",
+      "system_prompt": "Follow the user's request with concise precision."
+    },
+    {
+      "id": "v024",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nRespond as a numbered list.",
+      "category": "syntactic",
+      "transform": "List structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v025",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nRespond in one paragraph.",
+      "category": "syntactic",
+      "transform": "Paragraph structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v026",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nAvoid vague claims.",
+      "category": "negation",
+      "transform": "Avoid vagueness",
+      "system_prompt": null
+    },
+    {
+      "id": "v027",
+      "prompt": "describe how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'describe'",
+      "system_prompt": null
+    },
+    {
+      "id": "v028",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Keep the answer concise.",
+      "category": "lexical",
+      "transform": "Add concise wording",
+      "system_prompt": null
+    },
+    {
+      "id": "v029",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nUse concrete examples where useful.",
+      "category": "specificity",
+      "transform": "Add example requirement",
+      "system_prompt": null
+    },
+    {
+      "id": "v030",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 30: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v031",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 31: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v032",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 32: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v033",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 33: Prioritize practical details.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v034",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 34: Use a neutral tone.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v035",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 35: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v036",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 36: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v037",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 37: Prioritize practical details.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v038",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 38: Prioritize practical details.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v039",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 39: State any uncertainty.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v040",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 40: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v041",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 41: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v042",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 42: Use a neutral tone.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v043",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 43: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v044",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 44: State any uncertainty.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v045",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 45: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v046",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 46: Focus on the final answer.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v047",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 47: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v048",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 48: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v049",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 49: Use a neutral tone.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v050",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 50: Focus on the final answer.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v051",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 51: Keep the answer compact.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v052",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 52: Use a neutral tone.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v053",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 53: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v054",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 54: Focus on the final answer.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v055",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 55: State any uncertainty.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v056",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 56: Focus on the final answer.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v057",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 57: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v058",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 58: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v059",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 59: Prioritize practical details.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v060",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 60: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v061",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 61: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v062",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 62: Prioritize practical details.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v063",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 63: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "Rolling out a new AI chatbot feature to production users requires a meticulous, phased approach to ensure safety, reliability",
+      "latency_ms": 3890,
+      "error": null
+    },
+    {
+      "variant_id": "v001",
+      "output": "",
+      "latency_ms": 4023,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 40.618153365s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}"
+    },
+    {
+      "variant_id": "v002",
+      "output": "Rolling out a new AI chatbot feature to production users requires a meticulous, multi-stage approach,",
+      "latency_ms": 4349,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "",
+      "latency_ms": 3996,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 40.639976146s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}"
+    },
+    {
+      "variant_id": "v004",
+      "output": "Rolling out a new AI chatbot feature to production users is a high-stakes endeavor, requiring a meticulous",
+      "latency_ms": 3878,
+      "error": null
+    },
+    {
+      "variant_id": "v005",
+      "output": "Here's how to safely roll out a new AI chatbot feature:\n\n1.  **Internal &",
+      "latency_ms": 4144,
+      "error": null
+    },
+    {
+      "variant_id": "v006",
+      "output": "Rolling out a new AI chatbot feature to production users requires a meticulous, multi-stage approach to ensure safety",
+      "latency_ms": 4938,
+      "error": null
+    },
+    {
+      "variant_id": "v007",
+      "output": "Rolling out a new AI chatbot feature safely to production users requires a multi-faceted approach, combining standard software",
+      "latency_ms": 4149,
+      "error": null
+    },
+    {
+      "variant_id": "v008",
+      "output": "",
+      "latency_ms": 7014,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.618423976s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v009",
+      "output": "",
+      "latency_ms": 7030,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.596813573s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v010",
+      "output": "",
+      "latency_ms": 7134,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.490203925s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v011",
+      "output": "",
+      "latency_ms": 7147,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.494486839s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v012",
+      "output": "",
+      "latency_ms": 7403,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.221835771s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v013",
+      "output": "",
+      "latency_ms": 7518,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.124111962s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v014",
+      "output": "",
+      "latency_ms": 7466,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 37.163791916s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "variant_id": "v015",
+      "output": "",
+      "latency_ms": 8024,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 36.602927138s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}"
+    },
+    {
+      "variant_id": "v016",
+      "output": "",
+      "latency_ms": 10131,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.506421987s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v017",
+      "output": "",
+      "latency_ms": 10207,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.425641982s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v018",
+      "output": "",
+      "latency_ms": 10244,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.395891741s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v019",
+      "output": "",
+      "latency_ms": 10247,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.393086976s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v020",
+      "output": "",
+      "latency_ms": 10660,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.117732318s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v021",
+      "output": "",
+      "latency_ms": 10664,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 34.027423736s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    },
+    {
+      "variant_id": "v022",
+      "output": "",
+      "latency_ms": 10855,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 33.8353094s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+    },
+    {
+      "variant_id": "v023",
+      "output": "",
+      "latency_ms": 11177,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 33.457509615s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+    },
+    {
+      "variant_id": "v024",
+      "output": "",
+      "latency_ms": 13265,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 31.378992986s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "variant_id": "v025",
+      "output": "",
+      "latency_ms": 13424,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 31.218842358s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "variant_id": "v026",
+      "output": "",
+      "latency_ms": 13481,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 31.148836704s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "variant_id": "v027",
+      "output": "",
+      "latency_ms": 13464,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 31.162916632s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "variant_id": "v028",
+      "output": "",
+      "latency_ms": 13996,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 30.787889817s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}"
+    },
+    {
+      "variant_id": "v029",
+      "output": "",
+      "latency_ms": 14026,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 30.781910461s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}"
+    },
+    {
+      "variant_id": "v030",
+      "output": "",
+      "latency_ms": 14005,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 30.67882337s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}"
+    },
+    {
+      "variant_id": "v031",
+      "output": "",
+      "latency_ms": 14282,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 30.351222687s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}"
+    },
+    {
+      "variant_id": "v032",
+      "output": "",
+      "latency_ms": 16363,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 28.278485577s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}"
+    },
+    {
+      "variant_id": "v033",
+      "output": "",
+      "latency_ms": 16721,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.916372119s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v034",
+      "output": "",
+      "latency_ms": 16700,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.92477761s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v035",
+      "output": "",
+      "latency_ms": 16721,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.909634768s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v036",
+      "output": "",
+      "latency_ms": 17152,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.487406354s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v037",
+      "output": "",
+      "latency_ms": 17098,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.534567618s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v038",
+      "output": "",
+      "latency_ms": 17139,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.50133952s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v039",
+      "output": "",
+      "latency_ms": 17391,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 27.252944398s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "variant_id": "v040",
+      "output": "",
+      "latency_ms": 20401,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 24.227826824s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}"
+    },
+    {
+      "variant_id": "v041",
+      "output": "",
+      "latency_ms": 20408,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 24.230486302s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}"
+    },
+    {
+      "variant_id": "v042",
+      "output": "",
+      "latency_ms": 20365,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 24.244924481s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}"
+    },
+    {
+      "variant_id": "v043",
+      "output": "",
+      "latency_ms": 20626,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 24.004537012s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}"
+    },
+    {
+      "variant_id": "v044",
+      "output": "",
+      "latency_ms": 22627,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 22.003466889s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}"
+    },
+    {
+      "variant_id": "v045",
+      "output": "",
+      "latency_ms": 22651,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 21.982619158s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+    },
+    {
+      "variant_id": "v046",
+      "output": "",
+      "latency_ms": 22642,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 21.993866154s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+    },
+    {
+      "variant_id": "v047",
+      "output": "",
+      "latency_ms": 22958,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 21.689245375s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+    },
+    {
+      "variant_id": "v048",
+      "output": "",
+      "latency_ms": 24521,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 20.096780427s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    },
+    {
+      "variant_id": "v049",
+      "output": "",
+      "latency_ms": 24569,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 20.059934441s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    },
+    {
+      "variant_id": "v050",
+      "output": "",
+      "latency_ms": 24924,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 19.770225247s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}"
+    },
+    {
+      "variant_id": "v051",
+      "output": "",
+      "latency_ms": 24945,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 19.765664847s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}"
+    },
+    {
+      "variant_id": "v052",
+      "output": "",
+      "latency_ms": 26753,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 17.925560767s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "variant_id": "v053",
+      "output": "",
+      "latency_ms": 26738,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 17.936504535s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "variant_id": "v054",
+      "output": "",
+      "latency_ms": 26451,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 18.277485353s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}"
+    },
+    {
+      "variant_id": "v055",
+      "output": "",
+      "latency_ms": 27195,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 17.604466973s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "variant_id": "v056",
+      "output": "",
+      "latency_ms": 28810,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 15.823722887s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}"
+    },
+    {
+      "variant_id": "v057",
+      "output": "",
+      "latency_ms": 28788,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 15.833447028s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}"
+    },
+    {
+      "variant_id": "v058",
+      "output": "",
+      "latency_ms": 29090,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 15.540871863s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}"
+    },
+    {
+      "variant_id": "v059",
+      "output": "",
+      "latency_ms": 29365,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 15.363483607s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}"
+    },
+    {
+      "variant_id": "v060",
+      "output": "",
+      "latency_ms": 30522,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 14.107077423s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}"
+    },
+    {
+      "variant_id": "v061",
+      "output": "",
+      "latency_ms": 30537,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 14.096264887s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}"
+    },
+    {
+      "variant_id": "v062",
+      "output": "",
+      "latency_ms": 31235,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 13.829338033s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}"
+    },
+    {
+      "variant_id": "v063",
+      "output": "",
+      "latency_ms": 32871,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 12.225165242s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}"
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": -1.210540533065796,
+      "y": -0.06043807044625282,
+      "cluster": 1,
+      "semantic_distance": -1.1920928955078125e-7,
+      "output_length": 125,
+      "token_count": 19,
+      "entropy": 4.037401197654112
+    },
+    {
+      "variant_id": "v001",
+      "x": 0.13700096309185028,
+      "y": -0.0034571115393191576,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v002",
+      "x": -1.2905056476593018,
+      "y": -0.16963252425193787,
+      "cluster": 3,
+      "semantic_distance": 0.19084513187408447,
+      "output_length": 101,
+      "token_count": 15,
+      "entropy": 3.773557262275186
+    },
+    {
+      "variant_id": "v003",
+      "x": 0.13414309918880463,
+      "y": 0.024178043007850647,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v004",
+      "x": -1.1919525861740112,
+      "y": -0.26762261986732483,
+      "cluster": 3,
+      "semantic_distance": 0.24934804439544678,
+      "output_length": 106,
+      "token_count": 17,
+      "entropy": 3.807763576417194
+    },
+    {
+      "variant_id": "v005",
+      "x": -1.1121039390563965,
+      "y": 0.7322694659233093,
+      "cluster": 2,
+      "semantic_distance": 0.44272178411483765,
+      "output_length": 73,
+      "token_count": 14,
+      "entropy": 3.807354922057604
+    },
+    {
+      "variant_id": "v006",
+      "x": -1.1769161224365234,
+      "y": -0.040951453149318695,
+      "cluster": 1,
+      "semantic_distance": 0.11534816026687622,
+      "output_length": 117,
+      "token_count": 18,
+      "entropy": 3.94770277922009
+    },
+    {
+      "variant_id": "v007",
+      "x": -1.2734308242797852,
+      "y": -0.13052096962928772,
+      "cluster": 3,
+      "semantic_distance": 0.31899476051330566,
+      "output_length": 126,
+      "token_count": 18,
+      "entropy": 4.058813890331201
+    },
+    {
+      "variant_id": "v008",
+      "x": 0.11923607438802719,
+      "y": -0.00415149936452508,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v009",
+      "x": 0.11911216378211975,
+      "y": -0.0040814196690917015,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v010",
+      "x": 0.11899746209383011,
+      "y": -0.003804178209975362,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v011",
+      "x": 0.1193510964512825,
+      "y": -0.004337421618402004,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v012",
+      "x": 0.119560107588768,
+      "y": -0.0047815884463489056,
+      "cluster": 0,
+      "semantic_distance": 0.9800279345363379,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v013",
+      "x": 0.1300506740808487,
+      "y": -0.02349158562719822,
+      "cluster": 4,
+      "semantic_distance": 1.0191144850105047,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v014",
+      "x": 0.12974940240383148,
+      "y": 0.008229750208556652,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v015",
+      "x": 0.11362295597791672,
+      "y": 0.01704386994242668,
+      "cluster": 0,
+      "semantic_distance": 0.9810441415756941,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v016",
+      "x": 0.1186719536781311,
+      "y": 0.03327268362045288,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v017",
+      "x": 0.14236611127853394,
+      "y": 0.004835531581193209,
+      "cluster": 0,
+      "semantic_distance": 1.0376022271811962,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v018",
+      "x": 0.12959150969982147,
+      "y": 0.01370410155504942,
+      "cluster": 0,
+      "semantic_distance": 1.0191144850105047,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v019",
+      "x": 0.11899227648973465,
+      "y": 0.03350415453314781,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v020",
+      "x": 0.12018834054470062,
+      "y": 0.03027438558638096,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v021",
+      "x": 0.11859462410211563,
+      "y": 0.03359419107437134,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v022",
+      "x": 0.13248693943023682,
+      "y": -0.016364924609661102,
+      "cluster": 4,
+      "semantic_distance": 1.0194440688937902,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v023",
+      "x": 0.12109273672103882,
+      "y": 0.0035895348992198706,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v024",
+      "x": 0.119483083486557,
+      "y": 0.006534798536449671,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v025",
+      "x": 0.10516149550676346,
+      "y": 0.011107697151601315,
+      "cluster": 0,
+      "semantic_distance": 0.9611118547618389,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v026",
+      "x": 0.12137914448976517,
+      "y": 0.004585930611938238,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v027",
+      "x": 0.12128440290689468,
+      "y": 0.004095589742064476,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v028",
+      "x": 0.13198421895503998,
+      "y": -0.015438944101333618,
+      "cluster": 4,
+      "semantic_distance": 1.018955858424306,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v029",
+      "x": 0.12681443989276886,
+      "y": 0.006882494781166315,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v030",
+      "x": 0.12303809821605682,
+      "y": 0.011790119111537933,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v031",
+      "x": 0.12149883806705475,
+      "y": 0.0038251157384365797,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v032",
+      "x": 0.12194432318210602,
+      "y": 0.0033115455880761147,
+      "cluster": 0,
+      "semantic_distance": 0.9796510692685843,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v033",
+      "x": 0.12161487340927124,
+      "y": 0.004298284184187651,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v034",
+      "x": 0.13766875863075256,
+      "y": -0.003540568985044956,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v035",
+      "x": 0.13478323817253113,
+      "y": -0.045055925846099854,
+      "cluster": 4,
+      "semantic_distance": 1.0192771647125483,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v036",
+      "x": 0.12094525992870331,
+      "y": 0.028505804017186165,
+      "cluster": 0,
+      "semantic_distance": 0.979842146858573,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v037",
+      "x": 0.12414605915546417,
+      "y": 0.007362877018749714,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v038",
+      "x": 0.12162430584430695,
+      "y": 0.003633315209299326,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v039",
+      "x": 0.1273787021636963,
+      "y": 0.0028693792410194874,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v040",
+      "x": 0.13253334164619446,
+      "y": -0.015481282025575638,
+      "cluster": 4,
+      "semantic_distance": 1.018955858424306,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v041",
+      "x": 0.11983074247837067,
+      "y": 0.007137936539947987,
+      "cluster": 0,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v042",
+      "x": 0.11983360350131989,
+      "y": 0.007544246036559343,
+      "cluster": 0,
+      "semantic_distance": 0.9802086856216192,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v043",
+      "x": 0.11966381967067719,
+      "y": 0.00787396915256977,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v044",
+      "x": 0.13976095616817474,
+      "y": -0.03967062756419182,
+      "cluster": 4,
+      "semantic_distance": 1.0379117168486118,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v045",
+      "x": 0.12118293344974518,
+      "y": 0.004538269713521004,
+      "cluster": 0,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v046",
+      "x": 0.12280293554067612,
+      "y": 0.001378458458930254,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v047",
+      "x": 0.12118187546730042,
+      "y": 0.003951106686145067,
+      "cluster": 0,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v048",
+      "x": 0.1220673993229866,
+      "y": 0.0036282981745898724,
+      "cluster": 0,
+      "semantic_distance": 0.9800279345363379,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v049",
+      "x": 0.1402134746313095,
+      "y": -0.003178849583491683,
+      "cluster": 0,
+      "semantic_distance": 1.0192771647125483,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v050",
+      "x": 0.13178281486034393,
+      "y": 0.014943590387701988,
+      "cluster": 0,
+      "semantic_distance": 1.0196153912693262,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v051",
+      "x": 0.12077581137418747,
+      "y": 0.03339768946170807,
+      "cluster": 0,
+      "semantic_distance": 1.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v052",
+      "x": 0.12679211795330048,
+      "y": -0.02076631411910057,
+      "cluster": 4,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v053",
+      "x": 0.12668977677822113,
+      "y": -0.020977813750505447,
+      "cluster": 4,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v054",
+      "x": 0.1382552683353424,
+      "y": -0.016739988699555397,
+      "cluster": 4,
+      "semantic_distance": 1.0192771647125483,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v055",
+      "x": 0.12668204307556152,
+      "y": -0.02070768177509308,
+      "cluster": 4,
+      "semantic_distance": 0.9805559273809195,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v056",
+      "x": 0.12797650694847107,
+      "y": -0.054107699543237686,
+      "cluster": 4,
+      "semantic_distance": 1.0191144850105047,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v057",
+      "x": 0.12194685637950897,
+      "y": -0.03323633223772049,
+      "cluster": 4,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v058",
+      "x": 0.12194525450468063,
+      "y": -0.03289031237363815,
+      "cluster": 4,
+      "semantic_distance": 0.9803846161812544,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v059",
+      "x": 0.12337317317724228,
+      "y": -0.03540569916367531,
+      "cluster": 4,
+      "semantic_distance": 0.9807228352874517,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v060",
+      "x": 0.13178837299346924,
+      "y": -0.016885649412870407,
+      "cluster": 4,
+      "semantic_distance": 1.0191144850105047,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v061",
+      "x": 0.1316756010055542,
+      "y": -0.016613107174634933,
+      "cluster": 4,
+      "semantic_distance": 1.0191144850105047,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v062",
+      "x": 0.12161027640104294,
+      "y": 0.0032931622117757797,
+      "cluster": 0,
+      "semantic_distance": 0.979842146858573,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v063",
+      "x": 0.12152790278196335,
+      "y": 0.0033470350317656994,
+      "cluster": 0,
+      "semantic_distance": 0.9802086856216192,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 8,
+    "projection_method": "pca",
+    "clustering_method": "kmeans",
+    "api_success_count": 6,
+    "api_error_count": 58,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "lexical",
+        "count": 9,
+        "avg_distance": 0.9997235656612449,
+        "max_distance": 1.0376022271811962
+      },
+      {
+        "category": "negation",
+        "count": 9,
+        "avg_distance": 0.8415145803656843,
+        "max_distance": 1.0
+      },
+      {
+        "category": "persona",
+        "count": 9,
+        "avg_distance": 0.982696366806825,
+        "max_distance": 1.0
+      },
+      {
+        "category": "politeness",
+        "count": 9,
+        "avg_distance": 0.9013130341966947,
+        "max_distance": 1.0191144850105047
+      },
+      {
+        "category": "position",
+        "count": 9,
+        "avg_distance": 0.9955277293920517,
+        "max_distance": 1.0192771647125483
+      },
+      {
+        "category": "specificity",
+        "count": 9,
+        "avg_distance": 1.0020324755460024,
+        "max_distance": 1.0192771647125483
+      },
+      {
+        "category": "syntactic",
+        "count": 9,
+        "avg_distance": 0.8172116619017389,
+        "max_distance": 1.0379117168486118
+      }
+    ]
+  },
+  "error": null
+}

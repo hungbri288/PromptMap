@@ -1,0 +1,29 @@
+{
+  "id": "5549a253ff5d",
+  "status": "failed",
+  "created_at": "2026-05-19T09:07:17.974986Z",
+  "completed_at": "2026-05-19T09:07:17.990128Z",
+  "request": {
+    "base_prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 64,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "local"
+  },
+  "variants": [],
+  "responses": [],
+  "points": [],
+  "base_variant_id": "base",
+  "metrics": null,
+  "error": "Local generation is disabled. Set allow_local_generation=True in settings."
+}

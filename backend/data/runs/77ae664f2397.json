@@ -1,0 +1,29 @@
+{
+  "id": "77ae664f2397",
+  "status": "running",
+  "created_at": "2026-05-19T06:46:32.337740Z",
+  "completed_at": null,
+  "request": {
+    "base_prompt": "Explain how to test a chatbot rollout safely.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 12,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "demo"
+  },
+  "variants": [],
+  "responses": [],
+  "points": [],
+  "base_variant_id": "base",
+  "metrics": null,
+  "error": null
+}

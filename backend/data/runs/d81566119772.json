@@ -1,0 +1,1418 @@
+{
+  "id": "d81566119772",
+  "status": "completed",
+  "created_at": "2026-05-19T07:13:33.636668Z",
+  "completed_at": "2026-05-19T07:13:33.685896Z",
+  "request": {
+    "base_prompt": "How to reverse a linkedlist?",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "position",
+      "negation",
+      "specificity"
+    ],
+    "sample_count": 58,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "mock"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "How to reverse a linkedlist?\n\nSystem-style note: prioritize accuracy.",
+      "category": "position",
+      "transform": "System note in user turn",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "How to reverse a linkedlist? Be direct.",
+      "category": "politeness",
+      "transform": "Direct style",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a patient teacher.",
+      "system_prompt": "You are a patient teacher."
+    },
+    {
+      "id": "v004",
+      "prompt": "How to reverse a linkedlist?\nUse concrete examples where useful.",
+      "category": "specificity",
+      "transform": "Add example requirement",
+      "system_prompt": null
+    },
+    {
+      "id": "v005",
+      "prompt": "How to reverse a linkedlist?\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v006",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a cautious senior engineer.",
+      "system_prompt": "You are a cautious senior engineer."
+    },
+    {
+      "id": "v007",
+      "prompt": "How to reverse a linkedlist?\nRespond in one paragraph.",
+      "category": "syntactic",
+      "transform": "Paragraph structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v008",
+      "prompt": "Please how to reverse a linkedlist?",
+      "category": "politeness",
+      "transform": "Polite prefix",
+      "system_prompt": null
+    },
+    {
+      "id": "v009",
+      "prompt": "Context: prioritize accuracy.\n\nUser request: How to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Context before user request",
+      "system_prompt": null
+    },
+    {
+      "id": "v010",
+      "prompt": "How to reverse a linkedlist?\nInclude exactly three key points.",
+      "category": "specificity",
+      "transform": "Add count constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v011",
+      "prompt": "How to reverse a linkedlist? Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v012",
+      "prompt": "How to reverse a linkedlist?\nDo not over-explain.",
+      "category": "negation",
+      "transform": "Negative brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v013",
+      "prompt": "How to reverse a linkedlist? Use plain language.",
+      "category": "lexical",
+      "transform": "Add plain language cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v014",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Instruction in system prompt",
+      "system_prompt": "Follow the user's request with concise precision."
+    },
+    {
+      "id": "v015",
+      "prompt": "How to reverse a linkedlist?\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v016",
+      "prompt": "I would appreciate it if you could how to reverse a linkedlist?",
+      "category": "politeness",
+      "transform": "Formal request",
+      "system_prompt": null
+    },
+    {
+      "id": "v017",
+      "prompt": "Please answer this request: How to reverse a linkedlist?",
+      "category": "syntactic",
+      "transform": "Question to instruction",
+      "system_prompt": null
+    },
+    {
+      "id": "v018",
+      "prompt": "First identify the task, then answer.\n\nHow to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Meta instruction before prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v019",
+      "prompt": "How to reverse a linkedlist?\nAvoid unnecessary detail.",
+      "category": "specificity",
+      "transform": "Add brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v020",
+      "prompt": "How to reverse a linkedlist?\nRespond as a numbered list.",
+      "category": "syntactic",
+      "transform": "List structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v021",
+      "prompt": "How to reverse a linkedlist?\nDo not use bullet points.",
+      "category": "negation",
+      "transform": "Format prohibition",
+      "system_prompt": null
+    },
+    {
+      "id": "v022",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v023",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a skeptical reviewer.",
+      "system_prompt": "You are a skeptical reviewer."
+    },
+    {
+      "id": "v024",
+      "prompt": "How to reverse a linkedlist? Keep the answer concise.",
+      "category": "lexical",
+      "transform": "Add concise wording",
+      "system_prompt": null
+    },
+    {
+      "id": "v025",
+      "prompt": "The task is to how to reverse a linkedlist?",
+      "category": "syntactic",
+      "transform": "Declarative framing",
+      "system_prompt": null
+    },
+    {
+      "id": "v026",
+      "prompt": "How to reverse a linkedlist?\nAvoid vague claims.",
+      "category": "negation",
+      "transform": "Avoid vagueness",
+      "system_prompt": null
+    },
+    {
+      "id": "v027",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 27: Focus on the final answer.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v028",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 28: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v029",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 29: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v030",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 30: Prioritize practical details.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v031",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 31: Use a neutral tone.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v032",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 32: State any uncertainty.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v033",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 33: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v034",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 34: Prioritize practical details.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v035",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 35: Prioritize practical details.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v036",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 36: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v037",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 37: Keep the answer compact.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v038",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 38: Keep the answer compact.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v039",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 39: Use a neutral tone.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v040",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 40: Keep the answer compact.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v041",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 41: State any uncertainty.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v042",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 42: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v043",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 43: Focus on the final answer.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v044",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 44: State any uncertainty.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v045",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 45: Keep the answer compact.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v046",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 46: Use a neutral tone.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v047",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 47: Focus on the final answer.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v048",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 48: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v049",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 49: Use a neutral tone.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v050",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 50: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v051",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 51: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v052",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 52: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v053",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 53: Focus on the final answer.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v054",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 54: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v055",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 55: Focus on the final answer.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v056",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 56: Prioritize practical details.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v057",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 57: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "This is a balanced answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 0ae792.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v001",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code ee9d07.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v002",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code c63c51.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code f7a8f7.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v004",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code cd6bbe.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v005",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 0c566e.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v006",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 8e7e8b.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v007",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 3c56b9.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v008",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code f6b3b6.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v009",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code ecb1ca.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v010",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code e227c3.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v011",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 54ddef.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v012",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code e77a81.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v013",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code e7d555.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v014",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 8ef1ce.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v015",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 51718b.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v016",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code ac3e45.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v017",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 662886.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v018",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 306838.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v019",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code db469f.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v020",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 254926.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v021",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code f6903f.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v022",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code d1a520.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v023",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code ddbac6.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v024",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 149da2.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v025",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code 333db7.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v026",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code a081ac.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v027",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 2e48cf.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v028",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code ff2b6d.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v029",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code a71edc.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v030",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 6d6822.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v031",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code b45e4d.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v032",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code 7ffa7e.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v033",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code d4ddce.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v034",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code bc9ca6.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v035",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 903e55.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v036",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code b3c551.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v037",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code d33cad.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v038",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code d70765.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v039",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code f8ff0c.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v040",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 9cae56.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v041",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 90d09c.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v042",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code f213d9.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v043",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code d675a7.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v044",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code 8f9028.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v045",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 629815.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v046",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code cf066a.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v047",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 98d0ef.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v048",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 61958c.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v049",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response becomes more cautious and adds caveats. Signal code 6e8ba3.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v050",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code 5f8bae.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v051",
+      "output": "This is a structure-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code f140a1.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v052",
+      "output": "This is a role-framed answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code 3bdcad.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v053",
+      "output": "This is a tone-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 95ee09.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v054",
+      "output": "This is a placement-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code 485819.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v055",
+      "output": "This is a negation-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The core recommendation stays stable, but details shift around wording. Signal code a0576b.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v056",
+      "output": "This is a constraint-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The response is shorter and more operational. Signal code e7c84b.",
+      "latency_ms": 5,
+      "error": null
+    },
+    {
+      "variant_id": "v057",
+      "output": "This is a wording-sensitive answer. For the prompt request, the model would likely identify the main task, produce an actionable response, and adapt tone based on the perturbation. The answer changes emphasis and introduces a different priority order. Signal code 2d0c07.",
+      "latency_ms": 5,
+      "error": null
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": 0.3419315218925476,
+      "y": 0.0271743256598711,
+      "cluster": 0,
+      "semantic_distance": -1.1920928955078125e-7,
+      "output_length": 244,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v001",
+      "x": 0.3282199203968048,
+      "y": 0.02205493301153183,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 255,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v002",
+      "x": 0.25575700402259827,
+      "y": -0.04362872987985611,
+      "cluster": 3,
+      "semantic_distance": 0.057142794132232666,
+      "output_length": 250,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v003",
+      "x": 0.2649965286254883,
+      "y": -0.10186474770307541,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 240,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v004",
+      "x": -0.20837368071079254,
+      "y": 0.46594059467315674,
+      "cluster": 2,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v005",
+      "x": -0.35023099184036255,
+      "y": -0.15939028561115265,
+      "cluster": 1,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v006",
+      "x": 0.2701425552368164,
+      "y": 0.0183773972094059,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 247,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v007",
+      "x": -0.32754191756248474,
+      "y": -0.18188564479351044,
+      "cluster": 1,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v008",
+      "x": 0.26723337173461914,
+      "y": -0.05339564010500908,
+      "cluster": 3,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 250,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v009",
+      "x": -0.3894999325275421,
+      "y": -0.20904497802257538,
+      "cluster": 4,
+      "semantic_distance": 0.37142854928970337,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v010",
+      "x": 0.3595246374607086,
+      "y": -0.053186725825071335,
+      "cluster": 0,
+      "semantic_distance": 0.055190861225128174,
+      "output_length": 256,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v011",
+      "x": -0.3739933967590332,
+      "y": -0.2294074445962906,
+      "cluster": 4,
+      "semantic_distance": 0.33307600021362305,
+      "output_length": 269,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v012",
+      "x": 0.2425709068775177,
+      "y": -0.08317848294973373,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 247,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v013",
+      "x": 0.26878395676612854,
+      "y": -0.029594283550977707,
+      "cluster": 0,
+      "semantic_distance": 0.13345927000045776,
+      "output_length": 246,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v014",
+      "x": 0.28225648403167725,
+      "y": -0.02570658177137375,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 255,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v015",
+      "x": -0.2107021063566208,
+      "y": 0.4760015606880188,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v016",
+      "x": -0.3628177046775818,
+      "y": -0.21701397001743317,
+      "cluster": 4,
+      "semantic_distance": 0.3233349919319153,
+      "output_length": 269,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v017",
+      "x": 0.32033756375312805,
+      "y": 0.002049099188297987,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 255,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v018",
+      "x": -0.3398718237876892,
+      "y": -0.17929701507091522,
+      "cluster": 1,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v019",
+      "x": 0.25702008605003357,
+      "y": -0.0659077987074852,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 249,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v020",
+      "x": -0.21518835425376892,
+      "y": 0.48899152874946594,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v021",
+      "x": 0.30845192074775696,
+      "y": -0.0164090134203434,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 254,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v022",
+      "x": -0.21484427154064178,
+      "y": 0.4894903898239136,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 265,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v023",
+      "x": -0.2095775157213211,
+      "y": 0.47595375776290894,
+      "cluster": 2,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 265,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v024",
+      "x": -0.25844714045524597,
+      "y": -0.13476544618606567,
+      "cluster": 1,
+      "semantic_distance": 0.27138787508010864,
+      "output_length": 272,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v025",
+      "x": 0.25024786591529846,
+      "y": -0.054798442870378494,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 248,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v026",
+      "x": -0.34630104899406433,
+      "y": -0.21837052702903748,
+      "cluster": 4,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v027",
+      "x": 0.34472036361694336,
+      "y": 0.029342463240027428,
+      "cluster": 0,
+      "semantic_distance": 0.057142794132232666,
+      "output_length": 254,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v028",
+      "x": 0.24674876034259796,
+      "y": -0.061979953199625015,
+      "cluster": 3,
+      "semantic_distance": 0.10135483741760254,
+      "output_length": 249,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v029",
+      "x": 0.2987605929374695,
+      "y": -0.03292001783847809,
+      "cluster": 0,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 246,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v030",
+      "x": -0.21506090462207794,
+      "y": 0.4889160096645355,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v031",
+      "x": -0.32754191756248474,
+      "y": -0.18188564479351044,
+      "cluster": 1,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 266,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v032",
+      "x": 0.19089540839195251,
+      "y": -0.10858996957540512,
+      "cluster": 3,
+      "semantic_distance": 0.10135483741760254,
+      "output_length": 243,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v033",
+      "x": -0.36592280864715576,
+      "y": -0.20922411978244781,
+      "cluster": 4,
+      "semantic_distance": 0.34285712242126465,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v034",
+      "x": -0.3378947377204895,
+      "y": -0.20409038662910461,
+      "cluster": 4,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v035",
+      "x": -0.33044010400772095,
+      "y": -0.19803659617900848,
+      "cluster": 1,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 275,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v036",
+      "x": 0.2893418073654175,
+      "y": -0.024086110293865204,
+      "cluster": 0,
+      "semantic_distance": 0.10135483741760254,
+      "output_length": 246,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v037",
+      "x": 0.25208812952041626,
+      "y": -0.055075857788324356,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 248,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v038",
+      "x": 0.24439282715320587,
+      "y": -0.06083468720316887,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 240,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v039",
+      "x": -0.3883136510848999,
+      "y": -0.24049101769924164,
+      "cluster": 4,
+      "semantic_distance": 0.34004533290863037,
+      "output_length": 269,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v040",
+      "x": -0.39025765657424927,
+      "y": -0.23162111639976501,
+      "cluster": 4,
+      "semantic_distance": 0.36086446046829224,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v041",
+      "x": -0.32253390550613403,
+      "y": -0.18813300132751465,
+      "cluster": 1,
+      "semantic_distance": 0.29626840353012085,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v042",
+      "x": 0.321888267993927,
+      "y": -0.006299525965005159,
+      "cluster": 0,
+      "semantic_distance": 0.05841606855392456,
+      "output_length": 256,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v043",
+      "x": 0.35258108377456665,
+      "y": 0.03570051118731499,
+      "cluster": 0,
+      "semantic_distance": 0.057142794132232666,
+      "output_length": 253,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v044",
+      "x": 0.23865412175655365,
+      "y": -0.10137885063886642,
+      "cluster": 3,
+      "semantic_distance": 0.133459210395813,
+      "output_length": 248,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v045",
+      "x": 0.3133576214313507,
+      "y": 0.015837084501981735,
+      "cluster": 0,
+      "semantic_distance": 0.057142794132232666,
+      "output_length": 247,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v046",
+      "x": 0.1974181830883026,
+      "y": -0.11582724750041962,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 243,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v047",
+      "x": -0.34893566370010376,
+      "y": -0.19295194745063782,
+      "cluster": 4,
+      "semantic_distance": 0.3233349919319153,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v048",
+      "x": -0.21595004200935364,
+      "y": 0.4577140808105469,
+      "cluster": 2,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 272,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v049",
+      "x": 0.310362309217453,
+      "y": -0.0019921199418604374,
+      "cluster": 0,
+      "semantic_distance": 0.057142794132232666,
+      "output_length": 256,
+      "token_count": 39,
+      "entropy": 4.936437078492074
+    },
+    {
+      "variant_id": "v050",
+      "x": 0.29588624835014343,
+      "y": -0.027512144297361374,
+      "cluster": 0,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 246,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v051",
+      "x": -0.17914225161075592,
+      "y": 0.5210667252540588,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v052",
+      "x": 0.25584980845451355,
+      "y": -0.053589221090078354,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 240,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v053",
+      "x": -0.29711219668388367,
+      "y": 0.3846156597137451,
+      "cluster": 2,
+      "semantic_distance": 0.3142856955528259,
+      "output_length": 268,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    },
+    {
+      "variant_id": "v054",
+      "x": -0.3535866141319275,
+      "y": -0.2539242208003998,
+      "cluster": 4,
+      "semantic_distance": 0.34285712242126465,
+      "output_length": 274,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v055",
+      "x": -0.3380645215511322,
+      "y": -0.20497821271419525,
+      "cluster": 4,
+      "semantic_distance": 0.293812096118927,
+      "output_length": 273,
+      "token_count": 41,
+      "entropy": 5.074390041826942
+    },
+    {
+      "variant_id": "v056",
+      "x": 0.2164304256439209,
+      "y": -0.10221333801746368,
+      "cluster": 3,
+      "semantic_distance": 0.10357850790023804,
+      "output_length": 249,
+      "token_count": 38,
+      "entropy": 4.837147500958406
+    },
+    {
+      "variant_id": "v057",
+      "x": -0.1687052994966507,
+      "y": 0.5152553915977478,
+      "cluster": 2,
+      "semantic_distance": 0.3232365846633911,
+      "output_length": 271,
+      "token_count": 41,
+      "entropy": 4.976829066217186
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 6,
+    "projection_method": "pca",
+    "clustering_method": "kmeans",
+    "api_success_count": 58,
+    "api_error_count": 0,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "lexical",
+        "count": 7,
+        "avg_distance": 0.15624833958489553,
+        "max_distance": 0.3232365846633911
+      },
+      {
+        "category": "negation",
+        "count": 9,
+        "avg_distance": 0.23059017128414577,
+        "max_distance": 0.3232365846633911
+      },
+      {
+        "category": "persona",
+        "count": 8,
+        "avg_distance": 0.1722627952694893,
+        "max_distance": 0.3232365846633911
+      },
+      {
+        "category": "politeness",
+        "count": 8,
+        "avg_distance": 0.20390427857637405,
+        "max_distance": 0.34004533290863037
+      },
+      {
+        "category": "position",
+        "count": 8,
+        "avg_distance": 0.27267637103796005,
+        "max_distance": 0.37142854928970337
+      },
+      {
+        "category": "specificity",
+        "count": 9,
+        "avg_distance": 0.159007728099823,
+        "max_distance": 0.3232365846633911
+      },
+      {
+        "category": "syntactic",
+        "count": 8,
+        "avg_distance": 0.2103784680366516,
+        "max_distance": 0.3232365846633911
+      }
+    ]
+  },
+  "error": null
+}

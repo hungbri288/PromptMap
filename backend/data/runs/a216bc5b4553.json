@@ -1,0 +1,181 @@
+{
+  "id": "a216bc5b4553",
+  "status": "completed",
+  "created_at": "2026-05-19T08:46:21.117053Z",
+  "completed_at": "2026-05-19T08:46:25.959558Z",
+  "request": {
+    "base_prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 5,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "live"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v004",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "",
+      "latency_ms": 3842,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 36.526945002s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}"
+    },
+    {
+      "variant_id": "v001",
+      "output": "",
+      "latency_ms": 3853,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 36.509882907s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}"
+    },
+    {
+      "variant_id": "v002",
+      "output": "Rolling out a new AI chatbot feature safely to production users requires a structured, multi-stage approach that priorit",
+      "latency_ms": 3926,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "Rolling out a new AI chatbot feature to production users requires a **highly cautious, phased, and data-",
+      "latency_ms": 3823,
+      "error": null
+    },
+    {
+      "variant_id": "v004",
+      "output": "Rolling out a new AI chatbot feature to production users is a high-stakes endeavor, demanding a meticulous,",
+      "latency_ms": 4245,
+      "error": null
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": -0.828108549118042,
+      "y": 0.007426537573337555,
+      "cluster": 0,
+      "semantic_distance": 0.0,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v001",
+      "x": -0.8425365090370178,
+      "y": 0.01107065286487341,
+      "cluster": 0,
+      "semantic_distance": 0.03505057096481323,
+      "output_length": 0,
+      "token_count": 0,
+      "entropy": 0.0
+    },
+    {
+      "variant_id": "v002",
+      "x": 0.5172461271286011,
+      "y": -0.45449861884117126,
+      "cluster": 0,
+      "semantic_distance": 1.0210351627320051,
+      "output_length": 120,
+      "token_count": 18,
+      "entropy": 4.058813890331201
+    },
+    {
+      "variant_id": "v003",
+      "x": 0.6052713990211487,
+      "y": 0.2026577889919281,
+      "cluster": 0,
+      "semantic_distance": 1.107908084988594,
+      "output_length": 104,
+      "token_count": 17,
+      "entropy": 3.9698157824268097
+    },
+    {
+      "variant_id": "v004",
+      "x": 0.5481275320053101,
+      "y": 0.23334364593029022,
+      "cluster": 0,
+      "semantic_distance": 1.0376288369297981,
+      "output_length": 107,
+      "token_count": 17,
+      "entropy": 3.807763576417194
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 0,
+    "projection_method": "pca",
+    "clustering_method": "single-cluster",
+    "api_success_count": 3,
+    "api_error_count": 2,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "negation",
+        "count": 1,
+        "avg_distance": 1.0376288369297981,
+        "max_distance": 1.0376288369297981
+      },
+      {
+        "category": "persona",
+        "count": 1,
+        "avg_distance": 1.107908084988594,
+        "max_distance": 1.107908084988594
+      },
+      {
+        "category": "politeness",
+        "count": 1,
+        "avg_distance": 1.0210351627320051,
+        "max_distance": 1.0210351627320051
+      },
+      {
+        "category": "specificity",
+        "count": 1,
+        "avg_distance": 0.03505057096481323,
+        "max_distance": 0.03505057096481323
+      }
+    ]
+  },
+  "error": null
+}

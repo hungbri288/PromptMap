@@ -1,0 +1,1556 @@
+{
+  "id": "16467659a499",
+  "status": "completed",
+  "created_at": "2026-05-19T08:54:57.231169Z",
+  "completed_at": "2026-05-19T08:54:57.767504Z",
+  "request": {
+    "base_prompt": "How to reverse a linkedlist?",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 64,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "mock"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "How to reverse a linkedlist?\nAvoid unnecessary detail.",
+      "category": "specificity",
+      "transform": "Add brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "How to reverse a linkedlist? Be direct.",
+      "category": "politeness",
+      "transform": "Direct style",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a patient teacher.",
+      "system_prompt": "You are a patient teacher."
+    },
+    {
+      "id": "v004",
+      "prompt": "First identify the task, then answer.\n\nHow to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Meta instruction before prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v005",
+      "prompt": "How to reverse a linkedlist?\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v006",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a cautious senior engineer.",
+      "system_prompt": "You are a cautious senior engineer."
+    },
+    {
+      "id": "v007",
+      "prompt": "How to reverse a linkedlist?\nRespond in one paragraph.",
+      "category": "syntactic",
+      "transform": "Paragraph structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v008",
+      "prompt": "Please how to reverse a linkedlist?",
+      "category": "politeness",
+      "transform": "Polite prefix",
+      "system_prompt": null
+    },
+    {
+      "id": "v009",
+      "prompt": "How to reverse a linkedlist?\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v010",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Instruction in system prompt",
+      "system_prompt": "Follow the user's request with concise precision."
+    },
+    {
+      "id": "v011",
+      "prompt": "How to reverse a linkedlist? Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v012",
+      "prompt": "How to reverse a linkedlist?\nDo not over-explain.",
+      "category": "negation",
+      "transform": "Negative brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v013",
+      "prompt": "How to reverse a linkedlist? Use plain language.",
+      "category": "lexical",
+      "transform": "Add plain language cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v014",
+      "prompt": "How to reverse a linkedlist?\nInclude exactly three key points.",
+      "category": "specificity",
+      "transform": "Add count constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v015",
+      "prompt": "Context: prioritize accuracy.\n\nUser request: How to reverse a linkedlist?",
+      "category": "position",
+      "transform": "Context before user request",
+      "system_prompt": null
+    },
+    {
+      "id": "v016",
+      "prompt": "I would appreciate it if you could how to reverse a linkedlist?",
+      "category": "politeness",
+      "transform": "Formal request",
+      "system_prompt": null
+    },
+    {
+      "id": "v017",
+      "prompt": "Please answer this request: How to reverse a linkedlist?",
+      "category": "syntactic",
+      "transform": "Question to instruction",
+      "system_prompt": null
+    },
+    {
+      "id": "v018",
+      "prompt": "How to reverse a linkedlist?\nUse concrete examples where useful.",
+      "category": "specificity",
+      "transform": "Add example requirement",
+      "system_prompt": null
+    },
+    {
+      "id": "v019",
+      "prompt": "How to reverse a linkedlist?\n\nSystem-style note: prioritize accuracy.",
+      "category": "position",
+      "transform": "System note in user turn",
+      "system_prompt": null
+    },
+    {
+      "id": "v020",
+      "prompt": "How to reverse a linkedlist?\nRespond as a numbered list.",
+      "category": "syntactic",
+      "transform": "List structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v021",
+      "prompt": "How to reverse a linkedlist?\nDo not use bullet points.",
+      "category": "negation",
+      "transform": "Format prohibition",
+      "system_prompt": null
+    },
+    {
+      "id": "v022",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v023",
+      "prompt": "How to reverse a linkedlist?",
+      "category": "persona",
+      "transform": "You are a skeptical reviewer.",
+      "system_prompt": "You are a skeptical reviewer."
+    },
+    {
+      "id": "v024",
+      "prompt": "How to reverse a linkedlist? Keep the answer concise.",
+      "category": "lexical",
+      "transform": "Add concise wording",
+      "system_prompt": null
+    },
+    {
+      "id": "v025",
+      "prompt": "The task is to how to reverse a linkedlist?",
+      "category": "syntactic",
+      "transform": "Declarative framing",
+      "system_prompt": null
+    },
+    {
+      "id": "v026",
+      "prompt": "How to reverse a linkedlist?\nAvoid vague claims.",
+      "category": "negation",
+      "transform": "Avoid vagueness",
+      "system_prompt": null
+    },
+    {
+      "id": "v027",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 27: Focus on the final answer.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v028",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 28: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v029",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 29: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v030",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 30: Prioritize practical details.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v031",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 31: Use a neutral tone.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v032",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 32: State any uncertainty.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v033",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 33: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v034",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 34: Prioritize practical details.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v035",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 35: Prioritize practical details.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v036",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 36: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v037",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 37: Keep the answer compact.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v038",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 38: Keep the answer compact.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v039",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 39: Use a neutral tone.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v040",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 40: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v041",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 41: State any uncertainty.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v042",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 42: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v043",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 43: Focus on the final answer.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v044",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 44: State any uncertainty.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v045",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 45: Keep the answer compact.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v046",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 46: Use a neutral tone.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v047",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 47: Focus on the final answer.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v048",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 48: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v049",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 49: Use a neutral tone.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v050",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 50: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v051",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 51: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v052",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 52: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v053",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 53: Focus on the final answer.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v054",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 54: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v055",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 55: Focus on the final answer.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v056",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 56: Prioritize practical details.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v057",
+      "prompt": "How to reverse a linkedlist?\nLexical variation 57: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v058",
+      "prompt": "How to reverse a linkedlist?\nSyntactic variation 58: Keep the answer compact.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v059",
+      "prompt": "How to reverse a linkedlist?\nPersona variation 59: Prioritize practical details.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v060",
+      "prompt": "How to reverse a linkedlist?\nPoliteness variation 60: State any uncertainty.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v061",
+      "prompt": "How to reverse a linkedlist?\nSpecificity variation 61: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v062",
+      "prompt": "How to reverse a linkedlist?\nNegation variation 62: Prioritize practical details.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v063",
+      "prompt": "How to reverse a linkedlist?\nPosition variation 63: Keep the answer compact.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant base is being tracked with signal 53c619.",
+      "latency_ms": 250,
+      "error": null
+    },
+    {
+      "variant_id": "v001",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal bfe33d.",
+      "latency_ms": 405,
+      "error": null
+    },
+    {
+      "variant_id": "v002",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal d25525.",
+      "latency_ms": 436,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal a40a93.",
+      "latency_ms": 374,
+      "error": null
+    },
+    {
+      "variant_id": "v004",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 6c9a79.",
+      "latency_ms": 282,
+      "error": null
+    },
+    {
+      "variant_id": "v005",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 0da300.",
+      "latency_ms": 140,
+      "error": null
+    },
+    {
+      "variant_id": "v006",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal e4eb05.",
+      "latency_ms": 467,
+      "error": null
+    },
+    {
+      "variant_id": "v007",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal a1ac31.",
+      "latency_ms": 374,
+      "error": null
+    },
+    {
+      "variant_id": "v008",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 77eb33.",
+      "latency_ms": 297,
+      "error": null
+    },
+    {
+      "variant_id": "v009",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal a65c73.",
+      "latency_ms": 374,
+      "error": null
+    },
+    {
+      "variant_id": "v010",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 3a586f.",
+      "latency_ms": 219,
+      "error": null
+    },
+    {
+      "variant_id": "v011",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 62aec1.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v012",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 2e9b5c.",
+      "latency_ms": 203,
+      "error": null
+    },
+    {
+      "variant_id": "v013",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 4a5e1a.",
+      "latency_ms": 235,
+      "error": null
+    },
+    {
+      "variant_id": "v014",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal ff8620.",
+      "latency_ms": 514,
+      "error": null
+    },
+    {
+      "variant_id": "v015",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 9dbd90.",
+      "latency_ms": 358,
+      "error": null
+    },
+    {
+      "variant_id": "v016",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal a741fd.",
+      "latency_ms": 374,
+      "error": null
+    },
+    {
+      "variant_id": "v017",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 9ab128.",
+      "latency_ms": 358,
+      "error": null
+    },
+    {
+      "variant_id": "v018",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 9cd3c8.",
+      "latency_ms": 358,
+      "error": null
+    },
+    {
+      "variant_id": "v019",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 47b41e.",
+      "latency_ms": 235,
+      "error": null
+    },
+    {
+      "variant_id": "v020",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal c2ce8d.",
+      "latency_ms": 421,
+      "error": null
+    },
+    {
+      "variant_id": "v021",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 0c2955.",
+      "latency_ms": 140,
+      "error": null
+    },
+    {
+      "variant_id": "v022",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 29f782.",
+      "latency_ms": 187,
+      "error": null
+    },
+    {
+      "variant_id": "v023",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 0a53a6.",
+      "latency_ms": 140,
+      "error": null
+    },
+    {
+      "variant_id": "v024",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 54b2ee.",
+      "latency_ms": 250,
+      "error": null
+    },
+    {
+      "variant_id": "v025",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal a85244.",
+      "latency_ms": 374,
+      "error": null
+    },
+    {
+      "variant_id": "v026",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 956b7c.",
+      "latency_ms": 343,
+      "error": null
+    },
+    {
+      "variant_id": "v027",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal d16dc3.",
+      "latency_ms": 436,
+      "error": null
+    },
+    {
+      "variant_id": "v028",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal d40330.",
+      "latency_ms": 436,
+      "error": null
+    },
+    {
+      "variant_id": "v029",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 3cc435.",
+      "latency_ms": 219,
+      "error": null
+    },
+    {
+      "variant_id": "v030",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal def4ff.",
+      "latency_ms": 451,
+      "error": null
+    },
+    {
+      "variant_id": "v031",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 586be3.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v032",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 2ff481.",
+      "latency_ms": 203,
+      "error": null
+    },
+    {
+      "variant_id": "v033",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 9e1a1c.",
+      "latency_ms": 358,
+      "error": null
+    },
+    {
+      "variant_id": "v034",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 5bd009.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v035",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal fe5adb.",
+      "latency_ms": 499,
+      "error": null
+    },
+    {
+      "variant_id": "v036",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 6d9a18.",
+      "latency_ms": 297,
+      "error": null
+    },
+    {
+      "variant_id": "v037",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 7e91ca.",
+      "latency_ms": 313,
+      "error": null
+    },
+    {
+      "variant_id": "v038",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal e6601b.",
+      "latency_ms": 467,
+      "error": null
+    },
+    {
+      "variant_id": "v039",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 83943e.",
+      "latency_ms": 328,
+      "error": null
+    },
+    {
+      "variant_id": "v040",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal e788fa.",
+      "latency_ms": 467,
+      "error": null
+    },
+    {
+      "variant_id": "v041",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 55ab13.",
+      "latency_ms": 250,
+      "error": null
+    },
+    {
+      "variant_id": "v042",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal d2320a.",
+      "latency_ms": 436,
+      "error": null
+    },
+    {
+      "variant_id": "v043",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 52f72c.",
+      "latency_ms": 250,
+      "error": null
+    },
+    {
+      "variant_id": "v044",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 244602.",
+      "latency_ms": 187,
+      "error": null
+    },
+    {
+      "variant_id": "v045",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 636f44.",
+      "latency_ms": 281,
+      "error": null
+    },
+    {
+      "variant_id": "v046",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 770296.",
+      "latency_ms": 297,
+      "error": null
+    },
+    {
+      "variant_id": "v047",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 297bc1.",
+      "latency_ms": 187,
+      "error": null
+    },
+    {
+      "variant_id": "v048",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 836894.",
+      "latency_ms": 328,
+      "error": null
+    },
+    {
+      "variant_id": "v049",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal d3f9c0.",
+      "latency_ms": 436,
+      "error": null
+    },
+    {
+      "variant_id": "v050",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal b85f98.",
+      "latency_ms": 405,
+      "error": null
+    },
+    {
+      "variant_id": "v051",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 5b69a9.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v052",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal c84eca.",
+      "latency_ms": 421,
+      "error": null
+    },
+    {
+      "variant_id": "v053",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 5dc40a.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v054",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 31075d.",
+      "latency_ms": 203,
+      "error": null
+    },
+    {
+      "variant_id": "v055",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 44a82f.",
+      "latency_ms": 235,
+      "error": null
+    },
+    {
+      "variant_id": "v056",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 9d41e9.",
+      "latency_ms": 358,
+      "error": null
+    },
+    {
+      "variant_id": "v057",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal f5a346.",
+      "latency_ms": 498,
+      "error": null
+    },
+    {
+      "variant_id": "v058",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal eba4d3.",
+      "latency_ms": 482,
+      "error": null
+    },
+    {
+      "variant_id": "v059",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 5e8d11.",
+      "latency_ms": 266,
+      "error": null
+    },
+    {
+      "variant_id": "v060",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 2c6206.",
+      "latency_ms": 187,
+      "error": null
+    },
+    {
+      "variant_id": "v061",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 7249e2.",
+      "latency_ms": 297,
+      "error": null
+    },
+    {
+      "variant_id": "v062",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 918475.",
+      "latency_ms": 343,
+      "error": null
+    },
+    {
+      "variant_id": "v063",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 12c053.",
+      "latency_ms": 155,
+      "error": null
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": -0.1367560476064682,
+      "y": 0.03406175598502159,
+      "cluster": 0,
+      "semantic_distance": 0.0,
+      "output_length": 144,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v001",
+      "x": -0.028944972902536392,
+      "y": 0.1011577621102333,
+      "cluster": 3,
+      "semantic_distance": 0.05097001791000366,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v002",
+      "x": -0.016806747764348984,
+      "y": -0.04750822111964226,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v003",
+      "x": -0.1007283553481102,
+      "y": -0.021814314648509026,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v004",
+      "x": 0.11822056025266647,
+      "y": -0.045308418571949005,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v005",
+      "x": 0.04021807760000229,
+      "y": 0.08710267394781113,
+      "cluster": 2,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v006",
+      "x": -0.10410919040441513,
+      "y": -0.028665997087955475,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v007",
+      "x": -0.04489021748304367,
+      "y": -0.01968606933951378,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v008",
+      "x": -0.021859759464859962,
+      "y": -0.05076330900192261,
+      "cluster": 1,
+      "semantic_distance": 0.050929248332977295,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v009",
+      "x": -0.04144294559955597,
+      "y": 0.11237591505050659,
+      "cluster": 3,
+      "semantic_distance": 0.05092918872833252,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v010",
+      "x": 0.11042772978544235,
+      "y": -0.041866596788167953,
+      "cluster": 4,
+      "semantic_distance": 0.07762199640274048,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v011",
+      "x": 0.03865661099553108,
+      "y": 0.02051388844847679,
+      "cluster": 2,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v012",
+      "x": 0.054567914456129074,
+      "y": 0.06424084305763245,
+      "cluster": 2,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v013",
+      "x": -0.023164037615060806,
+      "y": -0.10804050415754318,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v014",
+      "x": 0.022810328751802444,
+      "y": 0.16662423312664032,
+      "cluster": 3,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v015",
+      "x": 0.10839898884296417,
+      "y": -0.06595442444086075,
+      "cluster": 4,
+      "semantic_distance": 0.07804566621780396,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v016",
+      "x": 0.1089189201593399,
+      "y": -0.09325284510850906,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v017",
+      "x": -0.04299689456820488,
+      "y": -0.0684756189584732,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v018",
+      "x": -0.0324823223054409,
+      "y": 0.11154188215732574,
+      "cluster": 3,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v019",
+      "x": 0.11822056025266647,
+      "y": -0.045308418571949005,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v020",
+      "x": -0.04489021748304367,
+      "y": -0.01968606933951378,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v021",
+      "x": 0.05304791405797005,
+      "y": 0.070744089782238,
+      "cluster": 2,
+      "semantic_distance": 0.05097001791000366,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v022",
+      "x": -0.1007283553481102,
+      "y": -0.021814314648509026,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v023",
+      "x": -0.2087489813566208,
+      "y": 0.01819588616490364,
+      "cluster": 0,
+      "semantic_distance": 0.02499997615814209,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v024",
+      "x": -0.005112089216709137,
+      "y": -0.0867065042257309,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v025",
+      "x": -0.026427775621414185,
+      "y": -0.015871930867433548,
+      "cluster": 1,
+      "semantic_distance": 0.05097001791000366,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v026",
+      "x": 0.04141557589173317,
+      "y": 0.07287061214447021,
+      "cluster": 2,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v027",
+      "x": 0.167421355843544,
+      "y": 0.031945716589689255,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v028",
+      "x": 0.11532128602266312,
+      "y": -0.04629884660243988,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v029",
+      "x": -0.021942272782325745,
+      "y": -0.087429940700531,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v030",
+      "x": -0.04489021748304367,
+      "y": -0.01968606933951378,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v031",
+      "x": -0.09598109871149063,
+      "y": -0.043358154594898224,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v032",
+      "x": -0.015438546426594257,
+      "y": -0.0488005131483078,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v033",
+      "x": -0.0421207919716835,
+      "y": 0.10675472021102905,
+      "cluster": 3,
+      "semantic_distance": 0.05092918872833252,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v034",
+      "x": 0.04250029847025871,
+      "y": 0.07720217108726501,
+      "cluster": 2,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v035",
+      "x": 0.12169218063354492,
+      "y": -0.03845600411295891,
+      "cluster": 4,
+      "semantic_distance": 0.07766902446746826,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v036",
+      "x": -0.02265876717865467,
+      "y": -0.13456976413726807,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v037",
+      "x": -0.04489021748304367,
+      "y": -0.01968606933951378,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v038",
+      "x": -0.1007283553481102,
+      "y": -0.021814318373799324,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v039",
+      "x": -0.018348421901464462,
+      "y": -0.0552685372531414,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v040",
+      "x": -0.027475278824567795,
+      "y": 0.17915451526641846,
+      "cluster": 3,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v041",
+      "x": 0.167421355843544,
+      "y": 0.031945716589689255,
+      "cluster": 4,
+      "semantic_distance": 0.0780455470085144,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v042",
+      "x": 0.12325381487607956,
+      "y": -0.04513745382428169,
+      "cluster": 4,
+      "semantic_distance": 0.07766902446746826,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v043",
+      "x": -0.02312312461435795,
+      "y": -0.09164678305387497,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v044",
+      "x": -0.04489021748304367,
+      "y": -0.01968606933951378,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v045",
+      "x": -0.08943326026201248,
+      "y": -0.024765823036432266,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v046",
+      "x": -0.018702786415815353,
+      "y": -0.07462797313928604,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v047",
+      "x": -0.027475278824567795,
+      "y": 0.17915451526641846,
+      "cluster": 3,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v048",
+      "x": 0.04961996525526047,
+      "y": 0.07967871427536011,
+      "cluster": 2,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v049",
+      "x": 0.19926823675632477,
+      "y": -0.021128155291080475,
+      "cluster": 4,
+      "semantic_distance": 0.07762199640274048,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v050",
+      "x": -0.018305838108062744,
+      "y": -0.08267033100128174,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v051",
+      "x": -0.047111622989177704,
+      "y": -0.013317824341356754,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v052",
+      "x": -0.1007283553481102,
+      "y": -0.021814314648509026,
+      "cluster": 1,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v053",
+      "x": -0.0095929354429245,
+      "y": -0.062902070581913,
+      "cluster": 1,
+      "semantic_distance": 0.05097001791000366,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v054",
+      "x": -0.03530806303024292,
+      "y": 0.10381060838699341,
+      "cluster": 3,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v055",
+      "x": 0.0366426557302475,
+      "y": 0.0744352713227272,
+      "cluster": 2,
+      "semantic_distance": 0.050929248332977295,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v056",
+      "x": -0.016446759924292564,
+      "y": -0.0004063494852744043,
+      "cluster": 1,
+      "semantic_distance": 0.02381289005279541,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v057",
+      "x": -0.02596837840974331,
+      "y": -0.08542318642139435,
+      "cluster": 1,
+      "semantic_distance": 0.025320589542388916,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v058",
+      "x": -0.05202167481184006,
+      "y": -0.020989330485463142,
+      "cluster": 1,
+      "semantic_distance": 0.05092918872833252,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v059",
+      "x": -0.09984995424747467,
+      "y": -0.01992075704038143,
+      "cluster": 1,
+      "semantic_distance": 0.05131673812866211,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v060",
+      "x": -0.016446759924292564,
+      "y": -0.0004063494852744043,
+      "cluster": 1,
+      "semantic_distance": 0.02381289005279541,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v061",
+      "x": -0.0421207956969738,
+      "y": 0.10675472021102905,
+      "cluster": 3,
+      "semantic_distance": 0.05092918872833252,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v062",
+      "x": 0.12417375296354294,
+      "y": 0.09386496990919113,
+      "cluster": 2,
+      "semantic_distance": 0.050929248332977295,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v063",
+      "x": 0.11987172812223434,
+      "y": -0.04319657385349274,
+      "cluster": 4,
+      "semantic_distance": 0.07766902446746826,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 3,
+    "projection_method": "pca",
+    "clustering_method": "kmeans",
+    "api_success_count": 64,
+    "api_error_count": 0,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "lexical",
+        "count": 7,
+        "avg_distance": 0.047503922666822164,
+        "max_distance": 0.05131673812866211
+      },
+      {
+        "category": "negation",
+        "count": 10,
+        "avg_distance": 0.05651565194129944,
+        "max_distance": 0.0780455470085144
+      },
+      {
+        "category": "persona",
+        "count": 9,
+        "avg_distance": 0.048122935824924044,
+        "max_distance": 0.05131673812866211
+      },
+      {
+        "category": "politeness",
+        "count": 9,
+        "avg_distance": 0.0511490437719557,
+        "max_distance": 0.0780455470085144
+      },
+      {
+        "category": "position",
+        "count": 10,
+        "avg_distance": 0.07242462635040284,
+        "max_distance": 0.07804566621780396
+      },
+      {
+        "category": "specificity",
+        "count": 9,
+        "avg_distance": 0.05114903052647909,
+        "max_distance": 0.05131673812866211
+      },
+      {
+        "category": "syntactic",
+        "count": 9,
+        "avg_distance": 0.05123515261544122,
+        "max_distance": 0.05131673812866211
+      }
+    ]
+  },
+  "error": null
+}

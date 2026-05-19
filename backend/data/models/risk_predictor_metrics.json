@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "started_at": "2026-05-19T08:58:33.153823Z",
+  "completed_at": "2026-05-19T08:58:33.708132Z",
+  "device": "cpu",
+  "cuda_available": false,
+  "cuda_device_name": "cpu",
+  "dataset_size": 3987,
+  "train_size": 3189,
+  "validation_size": 798,
+  "epochs": 80,
+  "final_loss": 0.21034254133701324,
+  "validation_accuracy": 0.9097744226455688,
+  "threshold": 0.3052874803543091,
+  "training_ms": 554,
+  "model_path": "backend\\data\\models\\risk_predictor.pt",
+  "error": null
+}

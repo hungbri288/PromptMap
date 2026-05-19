@@ -1,0 +1,1556 @@
+{
+  "id": "cd1ae3815539",
+  "status": "completed",
+  "created_at": "2026-05-19T09:07:14.271939Z",
+  "completed_at": "2026-05-19T09:07:16.271611Z",
+  "request": {
+    "base_prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+    "categories": [
+      "lexical",
+      "syntactic",
+      "persona",
+      "politeness",
+      "specificity",
+      "negation",
+      "position"
+    ],
+    "sample_count": 64,
+    "model": null,
+    "temperature": 0.4,
+    "seed": 42,
+    "mode": "mock"
+  },
+  "variants": [
+    {
+      "id": "base",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "base",
+      "transform": "Original prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v001",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude assumptions, risks, and next steps.",
+      "category": "specificity",
+      "transform": "Add output requirements",
+      "system_prompt": null
+    },
+    {
+      "id": "v002",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Thanks.",
+      "category": "politeness",
+      "transform": "Polite suffix",
+      "system_prompt": null
+    },
+    {
+      "id": "v003",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a direct product strategist.",
+      "system_prompt": "You are a direct product strategist."
+    },
+    {
+      "id": "v004",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not avoid tradeoffs.",
+      "category": "negation",
+      "transform": "Double-negative tradeoff cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v005",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not over-explain.",
+      "category": "negation",
+      "transform": "Negative brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v006",
+      "prompt": "The task is to explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "syntactic",
+      "transform": "Declarative framing",
+      "system_prompt": null
+    },
+    {
+      "id": "v007",
+      "prompt": "Please answer this request: Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "syntactic",
+      "transform": "Question to instruction",
+      "system_prompt": null
+    },
+    {
+      "id": "v008",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a patient teacher.",
+      "system_prompt": "You are a patient teacher."
+    },
+    {
+      "id": "v009",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a skeptical reviewer.",
+      "system_prompt": "You are a skeptical reviewer."
+    },
+    {
+      "id": "v010",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Be direct.",
+      "category": "politeness",
+      "transform": "Direct style",
+      "system_prompt": null
+    },
+    {
+      "id": "v011",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "persona",
+      "transform": "You are a cautious senior engineer.",
+      "system_prompt": "You are a cautious senior engineer."
+    },
+    {
+      "id": "v012",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nDo not use bullet points.",
+      "category": "negation",
+      "transform": "Format prohibition",
+      "system_prompt": null
+    },
+    {
+      "id": "v013",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nAvoid unnecessary detail.",
+      "category": "specificity",
+      "transform": "Add brevity constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v014",
+      "prompt": "First identify the task, then answer.\n\nExplain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Meta instruction before prompt",
+      "system_prompt": null
+    },
+    {
+      "id": "v015",
+      "prompt": "I would appreciate it if you could explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "politeness",
+      "transform": "Formal request",
+      "system_prompt": null
+    },
+    {
+      "id": "v016",
+      "prompt": "Context: prioritize accuracy.\n\nUser request: Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Context before user request",
+      "system_prompt": null
+    },
+    {
+      "id": "v017",
+      "prompt": "clarify how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'clarify'",
+      "system_prompt": null
+    },
+    {
+      "id": "v018",
+      "prompt": "Please explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "politeness",
+      "transform": "Polite prefix",
+      "system_prompt": null
+    },
+    {
+      "id": "v019",
+      "prompt": "summarize how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'summarize'",
+      "system_prompt": null
+    },
+    {
+      "id": "v020",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nInclude exactly three key points.",
+      "category": "specificity",
+      "transform": "Add count constraint",
+      "system_prompt": null
+    },
+    {
+      "id": "v021",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\n\nSystem-style note: prioritize accuracy.",
+      "category": "position",
+      "transform": "System note in user turn",
+      "system_prompt": null
+    },
+    {
+      "id": "v022",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Use plain language.",
+      "category": "lexical",
+      "transform": "Add plain language cue",
+      "system_prompt": null
+    },
+    {
+      "id": "v023",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.",
+      "category": "position",
+      "transform": "Instruction in system prompt",
+      "system_prompt": "Follow the user's request with concise precision."
+    },
+    {
+      "id": "v024",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nRespond as a numbered list.",
+      "category": "syntactic",
+      "transform": "List structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v025",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nRespond in one paragraph.",
+      "category": "syntactic",
+      "transform": "Paragraph structure",
+      "system_prompt": null
+    },
+    {
+      "id": "v026",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nAvoid vague claims.",
+      "category": "negation",
+      "transform": "Avoid vagueness",
+      "system_prompt": null
+    },
+    {
+      "id": "v027",
+      "prompt": "describe how to safely roll out a new AI chatbot feature to production users.",
+      "category": "lexical",
+      "transform": "Replace 'explain' with 'describe'",
+      "system_prompt": null
+    },
+    {
+      "id": "v028",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users. Keep the answer concise.",
+      "category": "lexical",
+      "transform": "Add concise wording",
+      "system_prompt": null
+    },
+    {
+      "id": "v029",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nUse concrete examples where useful.",
+      "category": "specificity",
+      "transform": "Add example requirement",
+      "system_prompt": null
+    },
+    {
+      "id": "v030",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 30: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v031",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 31: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v032",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 32: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v033",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 33: Prioritize practical details.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v034",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 34: Use a neutral tone.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v035",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 35: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v036",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 36: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v037",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 37: Prioritize practical details.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v038",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 38: Prioritize practical details.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v039",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 39: State any uncertainty.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v040",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 40: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v041",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 41: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v042",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 42: Use a neutral tone.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v043",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 43: Keep the answer compact.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v044",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 44: State any uncertainty.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v045",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 45: State any uncertainty.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v046",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 46: Focus on the final answer.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v047",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 47: State any uncertainty.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v048",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 48: Keep the answer compact.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v049",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 49: Use a neutral tone.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v050",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 50: Focus on the final answer.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v051",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 51: Keep the answer compact.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v052",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 52: Use a neutral tone.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v053",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 53: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v054",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 54: Focus on the final answer.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v055",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 55: State any uncertainty.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v056",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 56: Focus on the final answer.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v057",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nLexical variation 57: State any uncertainty.",
+      "category": "lexical",
+      "transform": "Seeded lexical variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v058",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSyntactic variation 58: Focus on the final answer.",
+      "category": "syntactic",
+      "transform": "Seeded syntactic variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v059",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPersona variation 59: Prioritize practical details.",
+      "category": "persona",
+      "transform": "Seeded persona variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v060",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPoliteness variation 60: Keep the answer compact.",
+      "category": "politeness",
+      "transform": "Seeded politeness variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v061",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nSpecificity variation 61: Keep the answer compact.",
+      "category": "specificity",
+      "transform": "Seeded specificity variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v062",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nNegation variation 62: Prioritize practical details.",
+      "category": "negation",
+      "transform": "Seeded negation variant",
+      "system_prompt": null
+    },
+    {
+      "id": "v063",
+      "prompt": "Explain how to safely roll out a new AI chatbot feature to production users.\nPosition variation 63: State any uncertainty.",
+      "category": "position",
+      "transform": "Seeded position variant",
+      "system_prompt": null
+    }
+  ],
+  "responses": [
+    {
+      "variant_id": "base",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant base is being tracked with signal 98ec95.",
+      "latency_ms": 352,
+      "error": null
+    },
+    {
+      "variant_id": "v001",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 2fe5d2.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v002",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 8e0b02.",
+      "latency_ms": 336,
+      "error": null
+    },
+    {
+      "variant_id": "v003",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 87533b.",
+      "latency_ms": 336,
+      "error": null
+    },
+    {
+      "variant_id": "v004",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 293b31.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v005",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 24bfeb.",
+      "latency_ms": 178,
+      "error": null
+    },
+    {
+      "variant_id": "v006",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal e0da80.",
+      "latency_ms": 461,
+      "error": null
+    },
+    {
+      "variant_id": "v007",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal a7673f.",
+      "latency_ms": 382,
+      "error": null
+    },
+    {
+      "variant_id": "v008",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 895881.",
+      "latency_ms": 336,
+      "error": null
+    },
+    {
+      "variant_id": "v009",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 579503.",
+      "latency_ms": 257,
+      "error": null
+    },
+    {
+      "variant_id": "v010",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 2e23ab.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v011",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 634719.",
+      "latency_ms": 273,
+      "error": null
+    },
+    {
+      "variant_id": "v012",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 67606e.",
+      "latency_ms": 273,
+      "error": null
+    },
+    {
+      "variant_id": "v013",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 120341.",
+      "latency_ms": 147,
+      "error": null
+    },
+    {
+      "variant_id": "v014",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 5063b6.",
+      "latency_ms": 241,
+      "error": null
+    },
+    {
+      "variant_id": "v015",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 302d0b.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v016",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 8130e7.",
+      "latency_ms": 320,
+      "error": null
+    },
+    {
+      "variant_id": "v017",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal ea993f.",
+      "latency_ms": 476,
+      "error": null
+    },
+    {
+      "variant_id": "v018",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 8f8c13.",
+      "latency_ms": 336,
+      "error": null
+    },
+    {
+      "variant_id": "v019",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 2b4533.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v020",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 7dec16.",
+      "latency_ms": 320,
+      "error": null
+    },
+    {
+      "variant_id": "v021",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal a3c03e.",
+      "latency_ms": 366,
+      "error": null
+    },
+    {
+      "variant_id": "v022",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 3e9ccc.",
+      "latency_ms": 225,
+      "error": null
+    },
+    {
+      "variant_id": "v023",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal b06e4a.",
+      "latency_ms": 382,
+      "error": null
+    },
+    {
+      "variant_id": "v024",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal b3a88c.",
+      "latency_ms": 399,
+      "error": null
+    },
+    {
+      "variant_id": "v025",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal ea2f23.",
+      "latency_ms": 476,
+      "error": null
+    },
+    {
+      "variant_id": "v026",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 9937d2.",
+      "latency_ms": 351,
+      "error": null
+    },
+    {
+      "variant_id": "v027",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 29ef96.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v028",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 9603fa.",
+      "latency_ms": 351,
+      "error": null
+    },
+    {
+      "variant_id": "v029",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 30c8f5.",
+      "latency_ms": 194,
+      "error": null
+    },
+    {
+      "variant_id": "v030",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal cd6d03.",
+      "latency_ms": 429,
+      "error": null
+    },
+    {
+      "variant_id": "v031",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 736d21.",
+      "latency_ms": 304,
+      "error": null
+    },
+    {
+      "variant_id": "v032",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 4cb28a.",
+      "latency_ms": 241,
+      "error": null
+    },
+    {
+      "variant_id": "v033",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal b97643.",
+      "latency_ms": 399,
+      "error": null
+    },
+    {
+      "variant_id": "v034",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal dac257.",
+      "latency_ms": 446,
+      "error": null
+    },
+    {
+      "variant_id": "v035",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal f3a07f.",
+      "latency_ms": 491,
+      "error": null
+    },
+    {
+      "variant_id": "v036",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 93c7d5.",
+      "latency_ms": 351,
+      "error": null
+    },
+    {
+      "variant_id": "v037",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal ec8ea5.",
+      "latency_ms": 476,
+      "error": null
+    },
+    {
+      "variant_id": "v038",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal f0f8cc.",
+      "latency_ms": 491,
+      "error": null
+    },
+    {
+      "variant_id": "v039",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal a56fc6.",
+      "latency_ms": 366,
+      "error": null
+    },
+    {
+      "variant_id": "v040",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal afdcc6.",
+      "latency_ms": 382,
+      "error": null
+    },
+    {
+      "variant_id": "v041",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal a6f133.",
+      "latency_ms": 382,
+      "error": null
+    },
+    {
+      "variant_id": "v042",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal ed4dfa.",
+      "latency_ms": 476,
+      "error": null
+    },
+    {
+      "variant_id": "v043",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal cae2d6.",
+      "latency_ms": 429,
+      "error": null
+    },
+    {
+      "variant_id": "v044",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 0df0c5.",
+      "latency_ms": 146,
+      "error": null
+    },
+    {
+      "variant_id": "v045",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal d4aa21.",
+      "latency_ms": 445,
+      "error": null
+    },
+    {
+      "variant_id": "v046",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 6d659b.",
+      "latency_ms": 288,
+      "error": null
+    },
+    {
+      "variant_id": "v047",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 961fba.",
+      "latency_ms": 351,
+      "error": null
+    },
+    {
+      "variant_id": "v048",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 87cc40.",
+      "latency_ms": 335,
+      "error": null
+    },
+    {
+      "variant_id": "v049",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 265335.",
+      "latency_ms": 177,
+      "error": null
+    },
+    {
+      "variant_id": "v050",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal a7c68d.",
+      "latency_ms": 382,
+      "error": null
+    },
+    {
+      "variant_id": "v051",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal 0bfd26.",
+      "latency_ms": 146,
+      "error": null
+    },
+    {
+      "variant_id": "v052",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal 79ecec.",
+      "latency_ms": 304,
+      "error": null
+    },
+    {
+      "variant_id": "v053",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal 62f959.",
+      "latency_ms": 273,
+      "error": null
+    },
+    {
+      "variant_id": "v054",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal e234b2.",
+      "latency_ms": 460,
+      "error": null
+    },
+    {
+      "variant_id": "v055",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 360f10.",
+      "latency_ms": 209,
+      "error": null
+    },
+    {
+      "variant_id": "v056",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 1f9a17.",
+      "latency_ms": 177,
+      "error": null
+    },
+    {
+      "variant_id": "v057",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant lexical is being tracked with signal 14ad0e.",
+      "latency_ms": 161,
+      "error": null
+    },
+    {
+      "variant_id": "v058",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant syntactic is being tracked with signal f43b7f.",
+      "latency_ms": 491,
+      "error": null
+    },
+    {
+      "variant_id": "v059",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant persona is being tracked with signal e56ceb.",
+      "latency_ms": 475,
+      "error": null
+    },
+    {
+      "variant_id": "v060",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant politeness is being tracked with signal e279d6.",
+      "latency_ms": 460,
+      "error": null
+    },
+    {
+      "variant_id": "v061",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant specificity is being tracked with signal 048997.",
+      "latency_ms": 130,
+      "error": null
+    },
+    {
+      "variant_id": "v062",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant negation is being tracked with signal 8abf05.",
+      "latency_ms": 335,
+      "error": null
+    },
+    {
+      "variant_id": "v063",
+      "output": "Mock async placeholder. This run uses a delayed offline response instead of a live model call. Variant position is being tracked with signal 946884.",
+      "latency_ms": 351,
+      "error": null
+    }
+  ],
+  "points": [
+    {
+      "variant_id": "base",
+      "x": 0.05649944022297859,
+      "y": -0.029902558773756027,
+      "cluster": 2,
+      "semantic_distance": -1.1920928955078125e-7,
+      "output_length": 144,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v001",
+      "x": 0.015997832641005516,
+      "y": 0.06275083124637604,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v002",
+      "x": -0.06638453900814056,
+      "y": 0.03301486745476723,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v003",
+      "x": -0.0451417937874794,
+      "y": -0.0838608369231224,
+      "cluster": 4,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v004",
+      "x": 0.13006345927715302,
+      "y": -0.09496380388736725,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v005",
+      "x": 0.0996149554848671,
+      "y": -0.09194684773683548,
+      "cluster": 2,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v006",
+      "x": 0.06436868757009506,
+      "y": 0.09463650733232498,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v007",
+      "x": 0.10180474817752838,
+      "y": 0.173275426030159,
+      "cluster": 1,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v008",
+      "x": -0.04120998829603195,
+      "y": -0.10819075256586075,
+      "cluster": 4,
+      "semantic_distance": 0.05224180221557617,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v009",
+      "x": -0.04624612629413605,
+      "y": -0.0932932049036026,
+      "cluster": 4,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v010",
+      "x": -0.07034625113010406,
+      "y": 0.02540580928325653,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v011",
+      "x": -0.04384221136569977,
+      "y": -0.09179262816905975,
+      "cluster": 4,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v012",
+      "x": 0.10295624285936356,
+      "y": -0.09700242429971695,
+      "cluster": 2,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v013",
+      "x": 0.012203211896121502,
+      "y": 0.054611027240753174,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v014",
+      "x": -0.08546342700719833,
+      "y": -0.02308693714439869,
+      "cluster": 0,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v015",
+      "x": -0.06543565541505814,
+      "y": 0.034290265291929245,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v016",
+      "x": -0.09852797538042068,
+      "y": -0.03265126049518585,
+      "cluster": 0,
+      "semantic_distance": 0.054094672203063965,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v017",
+      "x": 0.023304231464862823,
+      "y": 0.007475018035620451,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v018",
+      "x": -0.06441996246576309,
+      "y": 0.03368493169546127,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v019",
+      "x": 0.010161892510950565,
+      "y": 0.022705409675836563,
+      "cluster": 1,
+      "semantic_distance": 0.04622375965118408,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v020",
+      "x": 0.00937038753181696,
+      "y": 0.05398575961589813,
+      "cluster": 1,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v021",
+      "x": -0.08546343445777893,
+      "y": -0.02308693714439869,
+      "cluster": 0,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v022",
+      "x": 0.01770794205367565,
+      "y": 0.010434485971927643,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v023",
+      "x": -0.08617831766605377,
+      "y": -0.025481294840574265,
+      "cluster": 0,
+      "semantic_distance": 0.0823369026184082,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v024",
+      "x": 0.06436869502067566,
+      "y": 0.09463650733232498,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v025",
+      "x": 0.08629768341779709,
+      "y": 0.0776112973690033,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v026",
+      "x": 0.11182397603988647,
+      "y": -0.09340831637382507,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v027",
+      "x": 0.018409505486488342,
+      "y": 0.01930692419409752,
+      "cluster": 1,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v028",
+      "x": 0.01770794205367565,
+      "y": 0.010434485971927643,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v029",
+      "x": 0.01727859489619732,
+      "y": 0.04674193263053894,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v030",
+      "x": 0.06436868757009506,
+      "y": 0.09463650733232498,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v031",
+      "x": -0.038026560097932816,
+      "y": -0.08647838234901428,
+      "cluster": 4,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v032",
+      "x": -0.06441996246576309,
+      "y": 0.03368493169546127,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v033",
+      "x": 0.015244545415043831,
+      "y": 0.05533595010638237,
+      "cluster": 1,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v034",
+      "x": 0.10886630415916443,
+      "y": -0.10184432566165924,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v035",
+      "x": -0.07700834423303604,
+      "y": -0.029222752898931503,
+      "cluster": 0,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v036",
+      "x": 0.017707940191030502,
+      "y": 0.010434485971927643,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v037",
+      "x": 0.059920232743024826,
+      "y": 0.09276077151298523,
+      "cluster": 1,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v038",
+      "x": -0.03805949166417122,
+      "y": -0.09216978400945663,
+      "cluster": 4,
+      "semantic_distance": 0.05096995830535889,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v039",
+      "x": -0.06441996246576309,
+      "y": 0.03368493169546127,
+      "cluster": 0,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v040",
+      "x": 0.012203212827444077,
+      "y": 0.054611027240753174,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v041",
+      "x": 0.12014608830213547,
+      "y": -0.09206625074148178,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v042",
+      "x": -0.18784326314926147,
+      "y": 0.06541166454553604,
+      "cluster": 3,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v043",
+      "x": 0.01770794205367565,
+      "y": 0.010434486903250217,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v044",
+      "x": 0.07382107526063919,
+      "y": 0.13864262402057648,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v045",
+      "x": -0.036045949906110764,
+      "y": -0.09668808430433273,
+      "cluster": 4,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v046",
+      "x": -0.16574394702911377,
+      "y": 0.11496462672948837,
+      "cluster": 3,
+      "semantic_distance": 0.08074527978897095,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v047",
+      "x": 0.012203211896121502,
+      "y": 0.054611027240753174,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v048",
+      "x": 0.13006345927715302,
+      "y": -0.09496380388736725,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v049",
+      "x": -0.08223678171634674,
+      "y": -0.015281821601092815,
+      "cluster": 0,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v050",
+      "x": 0.017707940191030502,
+      "y": 0.010434485971927643,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v051",
+      "x": 0.0691898837685585,
+      "y": 0.09674017131328583,
+      "cluster": 1,
+      "semantic_distance": 0.054094552993774414,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v052",
+      "x": -0.045352764427661896,
+      "y": -0.09347715228796005,
+      "cluster": 4,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v053",
+      "x": -0.05681818351149559,
+      "y": 0.026344431564211845,
+      "cluster": 0,
+      "semantic_distance": 0.07894730567932129,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v054",
+      "x": 0.012203211896121502,
+      "y": 0.054611027240753174,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v055",
+      "x": 0.11182397603988647,
+      "y": -0.09340831637382507,
+      "cluster": 2,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v056",
+      "x": -0.09593746066093445,
+      "y": -0.014549793675541878,
+      "cluster": 0,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v057",
+      "x": 0.011206215247511864,
+      "y": 0.00428061094135046,
+      "cluster": 1,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v058",
+      "x": 0.0702989473938942,
+      "y": 0.09235911816358566,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 149,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v059",
+      "x": -0.04493926092982292,
+      "y": -0.08784393221139908,
+      "cluster": 4,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 147,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v060",
+      "x": -0.052920371294021606,
+      "y": 0.033532969653606415,
+      "cluster": 0,
+      "semantic_distance": 0.052631497383117676,
+      "output_length": 150,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v061",
+      "x": 0.00523030711337924,
+      "y": 0.053494859486818314,
+      "cluster": 1,
+      "semantic_distance": 0.05370837450027466,
+      "output_length": 151,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v062",
+      "x": 0.10138808935880661,
+      "y": -0.0871824100613594,
+      "cluster": 2,
+      "semantic_distance": 0.05263155698776245,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    },
+    {
+      "variant_id": "v063",
+      "x": -0.14280864596366882,
+      "y": -0.1121666431427002,
+      "cluster": 4,
+      "semantic_distance": 0.05409461259841919,
+      "output_length": 148,
+      "token_count": 24,
+      "entropy": 4.501629167387822
+    }
+  ],
+  "base_variant_id": "base",
+  "metrics": {
+    "embedding_device": "hashed-offline",
+    "embedding_ms": 3,
+    "projection_method": "pca",
+    "clustering_method": "kmeans",
+    "api_success_count": 64,
+    "api_error_count": 0,
+    "kl_divergence_available": false,
+    "category_summaries": [
+      {
+        "category": "lexical",
+        "count": 9,
+        "avg_distance": 0.052637457847595215,
+        "max_distance": 0.05370837450027466
+      },
+      {
+        "category": "negation",
+        "count": 9,
+        "avg_distance": 0.053349435329437256,
+        "max_distance": 0.05370837450027466
+      },
+      {
+        "category": "persona",
+        "count": 9,
+        "avg_distance": 0.05245829953087701,
+        "max_distance": 0.05370837450027466
+      },
+      {
+        "category": "politeness",
+        "count": 9,
+        "avg_distance": 0.0774217512872484,
+        "max_distance": 0.08074527978897095
+      },
+      {
+        "category": "position",
+        "count": 9,
+        "avg_distance": 0.05718973610136244,
+        "max_distance": 0.0823369026184082
+      },
+      {
+        "category": "specificity",
+        "count": 9,
+        "avg_distance": 0.0536316434542338,
+        "max_distance": 0.05409461259841919
+      },
+      {
+        "category": "syntactic",
+        "count": 9,
+        "avg_distance": 0.053674552175733775,
+        "max_distance": 0.05409461259841919
+      }
+    ]
+  },
+  "error": null
+}
